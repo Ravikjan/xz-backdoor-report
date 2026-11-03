@@ -19,6 +19,8 @@
 |---|---|
 | 🇷🇺 Русский отчёт | [Открыть русскую версию](ru/README.md) |
 | 🇬🇧 English report | [Open the English version](en/README.md) |
+| 🇷🇺 Русское техническое приложение | [Триаж, механика, detection engineering](ru/technical-deep-dive.md) |
+| 🇬🇧 English technical appendix | [Triage, mechanics, detection engineering](en/technical-deep-dive.md) |
 
 Both reports cover the background and timeline, the multi-stage build-time mechanism, the SSH attack path, what was and was not affected, discovery and response, practical checks, and lessons for maintainers and operators.
 
