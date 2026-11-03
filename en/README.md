@@ -4,6 +4,8 @@
 
 [← Home](../README.md) · [Русская версия →](../ru/README.md)
 
+> Need SOC/IR-level detail? See the [technical appendix: build stages, exploit conditions, safe triage, and detection engineering](technical-deep-dive.md).
+
 > **In brief.** A multi-stage backdoor was planted in XZ Utils 5.6.0 and 5.6.1. On a narrow set of Linux builds, it could alter the behavior of systemd-launched `sshd` and enable remote code execution. This was not a flaw in the SSH protocol and not an attack triggered by someone merely opening an archive: malicious logic entered the library during package building.
 
 ## What happened
